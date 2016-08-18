@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<title>demo02</title>
+</head>
+<body>
+	<!--字体图标-->
+	<button type="button" class="btn btn-default btn-lg">
+	  <span class="glyphicon glyphicon-user"></span> User
+	</button>
+	<button type="button" class="btn btn-default btn-sm">
+	  <span class="glyphicon glyphicon-user"></span> User
+	</button>
+	<button type="button" class="btn btn-default btn-xs">
+	  <span class="glyphicon glyphicon-user"></span> User
+	</button>
+	<button type="button" class="btn btn-primary btn-lg" style="text-shadow: black 5px 3px 3px;">
+	  <span class="glyphicon glyphicon-user"></span> User
+	</button>
+	<div class="alert alert-danger" role="alert">
+	  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+	  <span class="sr-only">Error:</span>
+	  Enter a valid email address
+	</div>
+
+	<!--下拉菜单-->
+	<div class="dropdown">
+	    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" 
+	      data-toggle="dropdown">
+	      主题
+	      	<span class="caret"></span>
+	    </button>
+	    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+	        <li role="presentation">
+	        	<a role="menuitem" tabindex="-1" href="#">Java</a>
+	        </li>
+	        <li role="presentation">
+	           <a role="menuitem" tabindex="-1" href="#">数据挖掘</a>
+	        </li>
+	        <li role="presentation">
+	           <a role="menuitem" tabindex="-1" href="#">数据通信/网络</a>
+	        </li>
+	        <li role="presentation" class="divider"></li>
+	        <li role="presentation">
+	           <a role="menuitem" tabindex="-1" href="#">分离的链接</a>
+	        </li>
+	    </ul>
+	</div>
+
+	<!--按钮组-->
+	<div class="btn-group">
+	  <button type="button" class="btn btn-default">按钮 1</button>
+	  <button type="button" class="btn btn-default">按钮 2</button>
+
+	  <div class="btn-group">
+	    <button type="button" class="btn btn-default dropdown-toggle" 
+	      data-toggle="dropdown">
+	      下列
+	      <span class="caret"></span>
+	    </button>
+	    <ul class="dropdown-menu">
+	      <li><a href="#">下拉链接 1</a></li>
+	      <li><a href="#">下拉链接 2</a></li>
+	    </ul>
+	  </div>
+	</div>
+	<br>
+	
+	<!--按钮下拉菜单-->
+	<div class="btn-group">
+	  <button type="button" class="btn btn-danger">Action</button>
+	  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	    <span class="caret"></span>
+	    <span class="sr-only">Toggle Dropdown</span>
+	  </button>
+	  <ul class="dropdown-menu">
+	    <li><a href="#">Action</a></li>
+	    <li><a href="#">Another action</a></li>
+	    <li><a href="#">Something else here</a></li>
+	    <li role="separator" class="divider"></li>
+	    <li><a href="#">Separated link</a></li>
+	  </ul>
+	</div>
+	<br>
+
+	<!--输入框组-->
+	<div class="input-group" style="width: 50%">
+	  <span class="input-group-addon" id="basic-addon1">@</span>
+	  <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+	</div>
+
+	<div class="input-group" style="width: 50%">
+	  <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
+	  <span class="input-group-addon" id="basic-addon2">@example.com</span>
+	</div>
+
+	<div class="input-group" style="width: 50%">
+	  <span class="input-group-addon">$</span>
+	  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+	  <span class="input-group-addon">.00</span>
+	</div>
+
+	<!--导航元素-->
+	<ul class="nav nav-tabs nav-justified">
+	   <li class="active"><a href="#">Home</a></li>
+	   <li><a href="#">SVN</a></li>
+	   <li><a href="#">iOS</a></li>
+	   <li><a href="#">VB.Net</a></li>
+	   <li class="dropdown">
+	      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+	         Java <span class="caret"></span>
+	      </a>
+	      <ul class="dropdown-menu">
+	         <li><a href="#">Swing</a></li>
+	         <li><a href="#">jMeter</a></li>
+	         <li><a href="#">EJB</a></li>
+	         <li class="divider"></li>
+	         <li><a href="#">分离的链接</a></li>
+	      </ul>
+	   </li>
+	   <li><a href="#">PHP</a></li>
+	</ul>
+
+	<!--导航栏-->
+	<nav class="navbar navbar-inverse" role="navigation">
+	   <div class="navbar-header">
+	      <a class="navbar-brand" href="#">W3Cschool</a>
+	   </div>
+	   <div>
+	      <ul class="nav navbar-nav">
+	         <li class="active"><a href="#">iOS</a></li>
+	         <li><a href="#">SVN</a></li>
+	         <li class="dropdown">
+	            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+	               Java <b class="caret"></b>
+	            </a>
+	            <ul class="dropdown-menu">
+	               <li><a href="#">jmeter</a></li>
+	               <li><a href="#">EJB</a></li>
+	               <li><a href="#">Jasper Report</a></li>
+	               <li class="divider"></li>
+	               <li><a href="#">分离的链接</a></li>
+	               <li class="divider"></li>
+	               <li><a href="#">另一个分离的链接</a></li>
+	            </ul>
+	         </li>
+	      </ul>
+	   </div>
+	</nav>
+
+	<!--面包屑导航-->
+	<ol class="breadcrumb">
+	  <li><a href="#">Home</a></li>
+	  <li><a href="#">Library</a></li>
+	  <li class="active">Data</li>
+	</ol>
+
+	<!--分页-->
+	<nav>
+	  <ul class="pagination">
+	    <li>
+	      <a href="#" aria-label="Previous">
+	        <span aria-hidden="true">&laquo;</span>
+	      </a>
+	    </li>
+	    <li><a href="#">1</a></li>
+	    <li><a href="#">2</a></li>
+	    <li><a href="#">3</a></li>
+	    <li><a href="#">4</a></li>
+	    <li><a href="#">5</a></li>
+	    <li>
+	      <a href="#" aria-label="Next">
+	        <span aria-hidden="true">&raquo;</span>
+	      </a>
+	    </li>
+	  </ul>
+	</nav>
+	
+	<!--标签-->
+	<h1>Example Heading <span class="label label-default">Label</span></h1>
+	<span class="label label-default">Default</span>
+	<span class="label label-primary">Primary</span>
+	<span class="label label-success">Success</span>
+	<span class="label label-info">Info</span>
+	<span class="label label-warning">Warning</span>
+	<span class="label label-danger">Danger</span>
+
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+</body>
+</html>
